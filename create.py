@@ -1,4 +1,6 @@
 import random
+str='Author ahronmoshe'
+print str.center(50, '@')
 def createpass():
      rand=random.randint(1,4)
      if rand==1:
@@ -14,5 +16,6 @@ def createpass():
 c=''
 for i in range(0,8):
      c+=createpass();     
-print c;
+print "the password is: "+c;
+
 
