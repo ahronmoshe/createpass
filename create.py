@@ -1,5 +1,5 @@
 import random
-str='Author ahronmoshe'
+str=' Author ahronmoshe '
 print str.center(50, '@')
 def createpass():
      rand=random.randint(1,4)
